@@ -35,7 +35,7 @@ h3 {
 
   font-size: 24px;
   font-weight: 300;
-  position:static;
+  
   color: rgb(255, 255, 255);
 }
 
@@ -44,7 +44,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position:static;
+  
 }
 
 .container {
@@ -52,14 +52,14 @@ h3 {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-  position:static;
+  
 }
 
 .hero__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax( 290px,1fr));
   grid-gap: 250px;
-  position:static;
+  
 }
 
 
@@ -88,7 +88,7 @@ h3 {
 .hero__subtitle {
   font-size: 32px;
   font-weight: 400px;
-  position:static;
+  
   color: rgb(255, 255, 255);
 }
 
@@ -105,7 +105,7 @@ h3 {
   margin-right: 9px;
 
   font-size: 30px;
-  position:static;
+  
   color: rgb(255, 255, 255);
 }
 
@@ -118,8 +118,8 @@ h3 {
   max-width: 500px;
   justify-self: right;
   overflow: hidden;
-  position: relative; right: -90px;
-  position: relative; top: 200px;
+  position: relative; right: -100px;
+  position: relative; top: 100px;
   border: 10px solid rgb(255, 255, 255);
  
 
@@ -150,7 +150,9 @@ h3 {
 
 @media screen and (max-width: 978px) {
   .hero {
+    min-height: 98.75vh;
     padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .hero__container {
